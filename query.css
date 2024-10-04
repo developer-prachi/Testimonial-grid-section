@@ -1,0 +1,40 @@
+/*****************************************************/
+/*BELOW 980px (Tablets)/*
+/*****************************************************/
+@media (max-width: 61em) {
+  html {
+    /* 8px/16px=0.5=50% */
+    font-size: 50%;
+  }
+  .main-section {
+    margin: 10rem 5rem;
+    /* grid-template-columns: 15rem 13rem 15rem 13rem; */
+    /* grid-template-columns: 1fr 1fr; */
+  }
+}
+/*****************************************************/
+/*BELOW 690px  (Smaller Tablets)/*
+/*****************************************************/
+/* @media (max-width: 43em) {
+  .main-section {
+    margin: 5rem 5rem;
+
+    grid-template-columns: 28rem;
+  } */
+@media (max-width: 544px) {
+  .main-section {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1rem;
+    margin: 10rem 5rem;
+  }
+
+  .employee-review-one,
+  .employee-review-two,
+  .employee-review-three,
+  .employee-review-four,
+  .employee-review-five {
+    grid-column: auto;
+    padding: 1rem;
+  }
+}
